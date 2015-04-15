@@ -1,0 +1,232 @@
+
+/*********************** container *******************/
+div.container {
+    height: 100vh;
+    width: 70vw;
+
+    background-color: aquamarine;
+    margin: 0 auto;
+
+    position: relative;
+}
+/*************** End of container ********************/
+
+/********************** block ************************/
+div.block {
+    height: 20px;
+    width: 20px;
+
+    background-color: #dc0518;
+    margin: 2px;
+    position: absolute;
+}
+/***************** End of block ***********************/
+
+/**************** main section ***********************/
+section.main {
+    width: 100%;
+    height: 100%;
+}
+
+div.header {
+    width: 90%;
+    height: 85%;
+
+    border: 2px solid #d8ffec;
+
+    position: absolute;
+
+    margin: 5% 5%;
+}
+
+div.title {
+    height: 30%;
+    text-align: center;
+}
+
+div.title > h1 {
+    font-size: 5em;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+div.title > p {
+    font-size: 3em;
+    margin: 0;
+}
+
+div#level {
+    height: 55%;
+}
+
+div#level > div {
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+
+div#level > div:last-child {
+    margin-left: 2em;
+}
+
+div#level > div:hover {
+    cursor: pointer;
+}
+
+div#level > div > div {
+    height: 60%;
+}
+
+div#level > div > p {
+    height: 35%;
+
+    text-align: center;
+    font-size: 3em;
+    color: darkred;
+}
+
+p#hscores {
+    height: 10%;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+p#hscores:hover {
+    cursor: pointer;
+}
+
+div.footer {
+    width: 90%;
+    height: 20%;
+
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+div.footer > ul > li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.footer > ul > li:hover {
+    cursor: pointer;
+}
+
+div.footer > ul > li:nth-child(1) {
+    width: 80%;
+    text-align: center;
+}
+div.footer > ul > li:nth-child(2) {
+    width: 10%;
+    float: right;
+    text-align: right;
+}
+
+/************* End of main section *********************/
+
+/*************** game high scores **********************/
+section.game-scores {
+    position: absolute;
+
+    width: 90%;
+    margin: 0 5%;
+
+    display: none;
+}
+
+section.game-scores > p {
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+section.game-scores > p:first-child {
+    font-size: 3em;
+    margin: 16px 0;
+    height: 15%;
+}
+
+section.game-scores > p:last-child {
+    font-size: 2em;
+    height: 10%;
+}
+
+section.game-scores > p:last-child:hover {
+    cursor: pointer;
+}
+
+section.game-scores > table#scores {
+    table-layout: fixed;
+    width: 90%;
+}
+
+section.game-scores > table#scores > tr > td {
+    padding: 12px 0;
+}
+
+section.game-scores > table#scores > thead > tr > th {
+    text-align: center;
+    font-size: 1.5em;
+    width: 30%;
+}
+
+/************End of game high scores section **************/
+
+/********************* game content *********************/
+section.game-content {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+
+    margin: 5% 5%;
+
+    display: none;
+}
+
+div.game-area {
+    height: 80%;
+    border: 2px solid #48484b;
+
+    text-align: center;
+    font-size: 10em;
+    padding-top: 15%;
+}
+
+div.game-area:hover {
+    cursor: pointer;
+}
+
+div.game-info {
+    height: 15%;
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+div#info-score {
+    width: 50%;
+    float: left;
+}
+
+div#info_level {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+div.game-over {
+    background-color: #8d565d;
+}
+
+div.game-food {
+    height: 20px;
+    width: 20px;
+
+    background-color: #7acd23;
+    margin: 2px;
+    position: absolute;
+}
+
+/************End of game area section ****************/
+
+

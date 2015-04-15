@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Classic Snake Game</title>
+    <link rel="stylesheet" href="snake.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var script = document.createElement('script');
+            script.src = 'base.js';
+            document.body.appendChild(script);
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <section class="game-main">
+            <div class="header">
+                <div class="title">
+                    <h1>SNAKE</h1>
+                    <p>CHOOSE LEVEL:</p>
+                </div>
+                <div id="level">
+                    <div id="slug" class="1">
+                        <div class="1"></div>
+                        <p class="1">SLUG</p>
+                    </div>
+                    <div id="worm" class="2">
+                        <div class="2"></div>
+                        <p class="2">WORM</p>
+                    </div>
+                    <div id="python" class="3">
+                        <div class="3"></div>
+                        <p class="3">PYTHON</p>
+                    </div>
+                </div>
+                <p id="hscores"> > HIGH SCORES < </p>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>www.golivelabs.com/webgames/</li>
+                    <li>EXIT</li>
+                </ul>
+            </div>
+        </section>
+        <section class="game-scores"></section>
+        <section class="game-content">
+            <div class="game-area"></div>
+        </section>
+    </div>
+</body>
+</html>
+
